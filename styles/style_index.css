@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+:root {
+    /*Variables of my project*/
+    /*Text*/
+    --description_letter: "Arial";
+
+    /*Colors*/
+    --background: #2A2B2A;
+    --borders: #73c991;
+    --fonts: white;
+
+}
+
+body{
+    background-color: var(--background);
+    margin: 20px;
+}
+
+#head {
+    color: white;
+    font-size: 120%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    border-bottom: 5px solid white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 55% auto;
+}
+
+.Aboutme {
+    grid-area: 1/1/2/2;
+    margin-top: 50px;
+    border: 5px solid white;
+    background-color: #bab7b1;
+}
+
+#photo_center {
+    text-align: center;
+    justify-self: center;
+}
+
+#mephoto {
+    width: 50%;
+    border-radius: 150px;
+    border: 10px solid var(--borders);
+    margin-top: 20px;
+}
+
+.description_me {
+    margin: 10px;
+}
+
+.information{
+    font-family: var(--description_letter);
+    font-size: 25px;
+    color: black;
+    justify-self: start;
+    text-align: justify;
+
+}
+
+.titles{
+    font-family: var(--description_letter);
+    font-size: 35px;
+    color: black;
+}
+
+
+/*Second Part*/
+
+
+
